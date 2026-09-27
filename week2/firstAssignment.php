@@ -57,7 +57,7 @@ switch (true) {
         $color = "red";
 }
 
-echo "<div style='font-family: Arial, sans-serif; margin-top: 20px; background:#f4f4f4; padding:20px; border-radius:10px; width:300px;'>";
+echo "<div style='font-family: Arial, sans-serif; margin-top: 20px; background:skyblue; padding:20px; border-radius:10px; width:300px;'>";
 echo "<h3 style='color:black;'>2 Divisibility Check</h3>";
 echo "<p style='color:blue;'>Number: <b>$number</b></p>";
 echo "<p style='color:$color;'>Result: <b>$result</b></p>";
@@ -83,7 +83,7 @@ for ($i = 35; $i >= 7; $i--) {
     }
 }
 
-echo "<div style='font-family: Arial, sans-serif; margin-top: 20px; background:#f4f4f4; padding:20px; border-radius:10px; width:300px;'>";
+echo "<div style='font-family: Arial, sans-serif; margin-top: 20px; background:cyan; padding:20px; border-radius:10px; width:300px;'>";
 echo "<h3 style='color:black;'>3 Odd & Even Numbers</h3>";
 echo "<p style='color:green;'>Odd numbers from 2 to 20: <b>$odds</b></p>";
 echo "<p style='color:blue;'>Even numbers from 35 to 7: <b>$evens</b></p>";
@@ -99,9 +99,9 @@ for ($i = 50; $i >= 2; $i--) {
     }
 }
 
-echo "<div style='font-family: Arial, sans-serif; margin-top: 20px; background:#f4f4f4; padding:20px; border-radius:10px; width:300px;'>";
+echo "<div style='font-family: Arial, sans-serif; margin-top: 20px; background:violet; padding:20px; border-radius:10px; width:300px;'>";
 echo "<h3 style='color:#333;'> 4 Divisible by 2 and 5</h3>";
-echo "<p style='color:purple;'>Numbers from 50 to 2: <b>$result</b></p>";
+echo "<p style='color:navy;'>Numbers from 50 to 2: <b>$result</b></p>";
 echo "</div>";
 
 //5 reverse of a given number
@@ -185,7 +185,7 @@ for ($i = 1; $i <= 12; $i++) {
     echo "<tr>";
     for ($j = 1; $j <= 12; $j++) {
         $product = $i * $j;
-        echo "<td style='border:1px solid #333; padding:2px 4px; color:blue; font-weight:bold;'>$product</td>";
+        echo "<td style='border:1px solid #333; padding:2px 4px; color:navy; font-weight:bold;'>$product</td>";
     }
     echo "</tr>";
 }
@@ -194,9 +194,9 @@ echo "</table>";
 echo "</div>";
 
 
-//9 prime numbers
+//9 whether the number is a prime or non-prime
 
-$number = 58;
+$number = 53;
 $count = 0;
 
 for ($i = 1; $i <= $number; $i++) {
